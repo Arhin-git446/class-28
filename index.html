@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Try/Catch example</title>
+    </head>
+    <body>
+        <h2>Js error handling</h2>
+        <p id="error_message"></p>
+        <script>
+            try{
+                function_error("hello");
+            }
+            catch(err) {
+
+document.getElementById("error_message").innerHTML = err.message;
+
+}
+        </script>
+    </body>
+</html>
